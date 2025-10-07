@@ -25,18 +25,19 @@ Find your Steam ID here: [steamid.io](https://steamid.io/)
 You can change the widget’s look with CSS. Add this to your site’s stylesheet or inside a <style> tag:
 ```
 <style>
-  /* Change background and text color */
-  .steam-widget {
-    background-color: #333;
-    color: #ffcc00;
+.steam-widget {
+    background: linear-gradient(180deg,rgba(121, 121, 121, 1)0%,rgba(93, 93, 93, 1) 100%);
+    color: #ffffff;
     font-family: "Segoe UI", sans-serif;
     border-radius: 12px;
     padding: 1rem;
+    border: 1px solid #fff;
+    filter: drop-shadow(5px 5px 4px #202020);
   }
 
-  /* Customize the strong elements */
   .steam-widget strong {
-    color: #00ffcc;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #000;
   }
 </style>
 ```
