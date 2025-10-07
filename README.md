@@ -1,6 +1,7 @@
 # Steam Widget
 
 A lightweight widget for your personal website that displays the last game you played on Steam along with your hours.
+
 ⚠️ Note: Your Steam profile must be public for this to work.
 
 ## Example:
