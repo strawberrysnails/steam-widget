@@ -5,14 +5,16 @@ A lightweight widget for your personal website that displays the last game you p
 
 ## Example:
 
-<script src="https://strawberrysnails.github.io/widgets/js/steam-widget.js?steamid=76561198243819620"></script>
+![Steam Widget Demo](https://raw.githubusercontent.com/strawberrysnails/steam-widget/refs/heads/main/screenshot.png)
 
 # How to use
 
 ## 1. Simple installation:
 
 Paste this code into your website where you want the widget to appear:
-```<script src="https://strawberrysnails.github.io/widgets/js/steam-widget.js?steamid=YOUR_STEAM_ID_HERE"></script>```
+```
+<script src="https://strawberrysnails.github.io/widgets/js/steam-widget.js?steamid=YOUR_STEAM_ID_HERE"></script>
+```
 
 Replace YOUR_STEAM_ID_HERE with your Steam 64-bit ID.
 
