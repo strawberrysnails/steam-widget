@@ -1,15 +1,12 @@
 # Steam Widget
-
 A lightweight widget for your personal website that displays the last game you played on Steam along with your hours.
 
 ⚠️ Note: Your Steam profile must be public for this to work.
 
 ## Example:
-
 ![Steam Widget Demo](https://raw.githubusercontent.com/strawberrysnails/steam-widget/refs/heads/main/screenshot.png)
 
 # How to use
-
 ## 1. Simple installation:
 
 Paste this code into your website where you want the widget to appear:
@@ -21,7 +18,16 @@ Replace YOUR_STEAM_ID_HERE with your Steam 64-bit ID.
 
 Find your Steam ID here: [steamid.io](https://steamid.io/)
 
-## 2. Optional: Custom Styling
+## 3. Optional: Custom Styling
+### Pre-made Themes
+
+I've included a selection of pre-made themes in the themes folder. You can use them by linking the CSS file in your page, for example:
+
+```
+<link rel="stylesheet" href="https://strawberrysnails.github.io/widgets/css/steel-theme.css">
+```
+
+### Custom Themes
 You can change the widget’s look with CSS. Add this to your site’s stylesheet or inside a <style> tag:
 ```
 <style>
@@ -44,6 +50,8 @@ You can change the widget’s look with CSS. Add this to your site’s styleshee
 
 Tip: You can target .steam-widget to change fonts, colors, spacing, and more.
 
-# Contact
+### Contributing Themes
+If you’d like to submit a new theme, feel free to create a pull request with your CSS file in the themes folder. I’ll review it, merge it, and credit you in the README!
 
-If you have any questions, comments, feedback, ect please feel free to [email me](mailto:hello@snails.town)!
+# Contact
+If you have any questions, comments, feedback, ect please feel free to [email me](mailto:hello@snails.town)
